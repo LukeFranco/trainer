@@ -1,0 +1,33 @@
+.car {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: drive 5s infinite linear;
+  }
+  
+  .tesla {
+    background-image: url(../images/tesla.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: car-move 20s linear infinite;
+    transform: scaleX(-1);
+  }
+  
+
+  @keyframes drive {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
