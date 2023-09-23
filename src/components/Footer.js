@@ -1,72 +1,52 @@
-
 import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "../styles/FooterStyles";
-  
+import styles from "../styles/footer.css";
+
 const Footer = () => {
   return (
-    <Box>
-      <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        GeeksforGeeks: A Computer Science Portal for Geeks
-      </h1>
-      <Container>
-        <Row>
-          <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+    <Box className="Box">
+      <h1>GeeksforGeeks: A Computer Science Portal for Geeks</h1>
+      <Container className="Container">
+        <Row className="Row">
+          <Column className="Column">
+            <Heading className="Heading">About Us</Heading>
+            <FooterLink className="FooterLink" href="#">Aim</FooterLink>
+            <FooterLink className="FooterLink" href="#">Vision</FooterLink>
+            <FooterLink className="FooterLink" href="#">Testimonials</FooterLink>
           </Column>
-          <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
+          <Column className="Column">
+            <Heading className="Heading">Services</Heading>
+            <FooterLink className="FooterLink" href="#">Writing</FooterLink>
+            <FooterLink className="FooterLink" href="#">Internships</FooterLink>
+            <FooterLink className="FooterLink" href="#">Coding</FooterLink>
+            <FooterLink className="FooterLink" href="#">Teaching</FooterLink>
           </Column>
-          <Column>
-            <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
+          <Column className="Column">
+            <Heading className="Heading">Contact Us</Heading>
+            <FooterLink className="FooterLink" href="#">Uttar Pradesh</FooterLink>
+            <FooterLink className="FooterLink" href="#">Ahemdabad</FooterLink>
+            <FooterLink className="FooterLink" href="#">Indore</FooterLink>
+            <FooterLink className="FooterLink" href="#">Mumbai</FooterLink>
           </Column>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">
+          <Column className="Column">
+            <Heading className="Heading">Social Media</Heading>
+            <FooterLink className="FooterLink" href="#">
               <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
+                <span>Facebook</span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink className="FooterLink" href="#">
               <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
+                <span>Instagram</span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink className="FooterLink" href="#">
               <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
+                <span>Twitter</span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink className="FooterLink" href="#">
               <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
+                <span>Youtube</span>
               </i>
             </FooterLink>
           </Column>
