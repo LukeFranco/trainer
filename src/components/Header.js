@@ -1,10 +1,9 @@
-// components/Header.js
 import React from "react";
-import styles from '../styles/header.css';
+
 
 const Header = () => {
   return (
-    <div className={styles.header}>
+    <div>
       <h1>My App Header</h1>
     </div>
   );
