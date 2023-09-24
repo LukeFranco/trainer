@@ -1,10 +1,10 @@
-.footer {
+.clock {
     position: fixed;
-    color: black;
+    color: blue;
     bottom: 0;
     left: 0;
     right: 0;
-text-align: center;
+text-align: left;
 margin: auto;
 border: 2px solid black;
 border-radius: 5px;

@@ -3,7 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Dashboard from './components/Dashboard';
+import Clock from './components/Clock';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div>  
       <Header />
       <Sidebar />
-      <Dashboard />
+      <Clock /> 
       <Footer />
     </div>
   );
