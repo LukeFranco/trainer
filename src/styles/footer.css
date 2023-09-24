@@ -1,14 +1,12 @@
-.header {
+.footer {
     position: fixed;
-    color: grey;
+    color: yellow;
     top: 0;
     left: 0;
     right: 0;
-text-align: center;
+text-align: right;
 margin: auto;
 border: 2px solid black;
 border-radius: 5px;
   }
-  
-
   

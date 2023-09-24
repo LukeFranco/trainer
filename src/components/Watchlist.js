@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../styles/watchlist.css';
 
 const Watchlist = () => {
   const [watchlist, setWatchlist] = useState(['NVDA', 'AAPL', 'MSFT', 'TSLA', 'GOOG']);
@@ -22,7 +23,7 @@ const Watchlist = () => {
   }, [watchlist]);
 
   return (
-    <div>
+    <div className="watchlist">
       <h2>Watchlist</h2>
       <table>
         <thead>
